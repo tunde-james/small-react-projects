@@ -1,0 +1,50 @@
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.multiselect {
+  padding: 10px 20px;
+  background-color: #614101;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.accordion {
+  width: 500px;
+}
+
+.item {
+  background: #614101;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+
+.title {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  background-color: inherit;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title:focus {
+  outline: none;
+}
+
+.content {
+  color: #ffffff;
+  height: auto;
+}
