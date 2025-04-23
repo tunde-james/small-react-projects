@@ -1,5 +1,6 @@
 import './App.css';
-import RandomColorGenerator from './components/random-color-generator..jsx/random-color-generator';
+import StarRating from './components/star-rating/star-rating';
+// import RandomColorGenerator from './components/random-color-generator..jsx/random-color-generator';
 // import Accordion from './components/accordion/accordion';
 // import MultiSelectAccordion from './components/accordion/multi-select-accordion';
 
@@ -11,7 +12,10 @@ function App() {
       {/* <MultiSelectAccordion /> */}
 
       {/* Random Color Component */}
-      <RandomColorGenerator />
+      {/* <RandomColorGenerator /> */}
+
+      {/* Star Rating Component*/}
+      <StarRating numberOfStars={10} />
     </div>
   );
 }
