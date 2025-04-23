@@ -14,6 +14,10 @@ export default function ImageSlider({ url, limit = 5, page = 1 }) {
         setLoading(true);
 
         const response = await fetch(`${getUrl}?page=${page}&limit=${limit}`);
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        
         const data = await response.json();
 
         if (data) {
