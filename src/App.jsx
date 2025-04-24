@@ -1,5 +1,6 @@
 import './App.css';
-import QRCodeGenerator from './components/qr-code-generator/qr-code-generator';
+import LightDarkMode from './components/light-dark-mode/light-dark-mode';
+// import QRCodeGenerator from './components/qr-code-generator/qr-code-generator';
 // import { sideMenus } from './components/tree-view/data';
 // import Menu from './components/tree-view/menu';
 // import LoadMoreData from './components/load-more-data/load-more-data';
@@ -32,7 +33,10 @@ function App() {
       {/* <Menu menus={sideMenus} /> */}
 
       {/* QR Code Generator*/}
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
+
+      {/* Theme Switcher */}
+      <LightDarkMode />
     </div>
   );
 }
