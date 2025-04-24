@@ -1,13 +1,13 @@
 import './App.css';
-import Menu from './components/tree-view/menu';
+import QRCodeGenerator from './components/qr-code-generator/qr-code-generator';
+// import { sideMenus } from './components/tree-view/data';
+// import Menu from './components/tree-view/menu';
 // import LoadMoreData from './components/load-more-data/load-more-data';
 // import ImageSlider from './components/image-slider/image-slider';
 // import StarRating from './s/star-rating/star-rating';
 // import RandomColorGenerator from './components/random-color-generator..jsx/random-color-generator';
 // import Accordion from './components/accordion/accordion';
 // import MultiSelectAccordion from './components/accordion/multi-select-accordion';
-
-import { sideMenus } from './components/tree-view/data';
 
 function App() {
   return (
@@ -29,7 +29,10 @@ function App() {
       {/* <LoadMoreData /> */}
 
       {/* Menu UI / Tree View  */}
-      <Menu menus={sideMenus} />
+      {/* <Menu menus={sideMenus} /> */}
+
+      {/* QR Code Generator*/}
+      <QRCodeGenerator />
     </div>
   );
 }
