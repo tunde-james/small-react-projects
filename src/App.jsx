@@ -1,5 +1,7 @@
 import './App.css';
-import TabsParent from './components/custom-tabs/tabs-parent';
+import DialogParent from './components/custom-modal-popup/dialog-parent';
+import ModalParent from './components/custom-modal-popup/modal-parent';
+// import TabsParent from './components/custom-tabs/tabs-parent';
 // import ScrollIndicator from './components/scroll-indicator/scroll-indicator';
 // import LightDarkMode from './components/light-dark-mode/light-dark-mode';
 // import QRCodeGenerator from './components/qr-code-generator/qr-code-generator';
@@ -14,7 +16,7 @@ import TabsParent from './components/custom-tabs/tabs-parent';
 
 function App() {
   return (
-    <div className='app'>
+    <div className="app">
       {/* Accordion */}
       {/* <Accordion /> */}
       {/* <MultiSelectAccordion /> */}
@@ -44,7 +46,11 @@ function App() {
       {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} /> */}
 
       {/* Custom Tabs */}
-      <TabsParent />
+      {/* <TabsParent /> */}
+
+      {/* Custom Modal */}
+      {/* <ModalParent /> */}
+      <DialogParent />
     </div>
   );
 }
