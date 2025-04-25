@@ -1,4 +1,5 @@
 import './App.css';
+import TabsParent from './components/custom-tabs/tabs-parent';
 // import ScrollIndicator from './components/scroll-indicator/scroll-indicator';
 // import LightDarkMode from './components/light-dark-mode/light-dark-mode';
 // import QRCodeGenerator from './components/qr-code-generator/qr-code-generator';
@@ -13,7 +14,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       {/* Accordion */}
       {/* <Accordion /> */}
       {/* <MultiSelectAccordion /> */}
@@ -41,6 +42,9 @@ function App() {
 
       {/* Scroll Indicator */}
       {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} /> */}
+
+      {/* Custom Tabs */}
+      <TabsParent />
     </div>
   );
 }
